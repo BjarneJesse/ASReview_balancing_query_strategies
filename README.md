@@ -8,6 +8,7 @@ This repository contain the files to reproduce the simulation study and subseque
 
 ## Table of Contents
 
-- [Simulation1A](#Simulation1A)
-
+- <div style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
+[Simulation1A](#Simulation1A)
+</div>
 ## Simulation1A <a name="Simulation1A"></a>
