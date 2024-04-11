@@ -7,8 +7,7 @@ The purpose of this project is to explore how the choice of the balancing strate
 This repository contain the files to reproduce the simulation study and subsequent analysis of the data for this project (which was conducted for a Bachalor's thesis Sociology from Utrecht University). 
 
 ## Table of Contents
-
-- <div style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
-[Simulation1A](#Simulation1A)
-</div>
+'''
+- [Simulation1A](#Simulation1A)
+'''
 ## Simulation1A <a name="Simulation1A"></a>
