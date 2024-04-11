@@ -8,7 +8,9 @@ This repository contain the files to reproduce the simulation study and subseque
 
 ## Table of Contents
 
-- [```Simulation1A```](#Simulation1A)
+- ```Simulation1A```
 
-## Simulation1A <a name="Simulation1A"></a>
+## Simulation1A
+
+In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evualtion of each of the current strategy's impact on a 'normal' dataset. 
 
