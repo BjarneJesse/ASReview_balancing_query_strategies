@@ -8,4 +8,5 @@ This repository contain the files to reproduce the simulation study and subseque
 
 ## Table of Contents
 
-- [Simulation1A]
+- [Simulation1A](#Simulation1A)
+## Simulation1A <a name:"Simulation1A"></a>
