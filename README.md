@@ -9,8 +9,17 @@ This repository contain the files to reproduce the simulation study and subseque
 ## Table of Contents
 
 - ```Simulation1A```
+- ```Simulation1B```
 
 ## Simulation1A
 
-In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evualtion of each of the current strategy's impact on a 'normal' dataset. 
+In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. 
+
+## Simulation1B
+
+In this simulation, all current balancing strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. 
+
+## Simulation2A
+
+In this simulation the interaction between the balancing strategy 'simple' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'simple', This means there is no balancing strategy. This comparison will be done on the same dataset as simulation1. 
 
