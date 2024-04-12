@@ -10,7 +10,7 @@ This repository contain the files to reproduce the simulation study and subseque
 
 - ```Simulation1A```
 - ```Simulation1B```
-- ```Simulation1A```
+- ```Simulation2A```
 
 ## Simulation1A
 
