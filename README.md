@@ -11,6 +11,7 @@ This repository contain the files to reproduce the simulation study and subseque
 - ```Simulation1A```
 - ```Simulation1B```
 - ```Simulation2A```
+- ```Simulation2B```
 
 ## Simulation1A
 
@@ -24,7 +25,7 @@ In this simulation, all current balancing strategies are simulated to analyze th
 
 In this simulation the interaction between the balancing strategy 'simple' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'simple', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
-## Simulation2A
+## Simulation2B
 
 In this simulation the interaction between the balancing strategy 'undersample' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'undersample', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
