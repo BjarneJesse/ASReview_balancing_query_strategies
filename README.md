@@ -14,20 +14,24 @@ This repository contain the files to reproduce the simulation study and subseque
 
 ## Simulation1A
 
-In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. 
+In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
 ## Simulation1B
 
-In this simulation, all current balancing strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. 
+In this simulation, all current balancing strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
 ## Simulation2A
 
-In this simulation the interaction between the balancing strategy 'simple' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'simple', This means there is no balancing strategy. This comparison will be done on the same dataset as simulation1. 
+In this simulation the interaction between the balancing strategy 'simple' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'simple', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## Simulation2A
+
+In this simulation the interaction between the balancing strategy 'undersample' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'undersample', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
 ## How to reproduce the project
 
 ### 1. Acces the data
-all the data comes from the SYNGERGY dataset 
+Please refer to the readme from the data folder
 
 ### 2. Install ASReview (and Makita)
 Please refer to the readme in the scripts folder.
