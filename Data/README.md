@@ -19,7 +19,7 @@ Alternatively, .zip of the dataset can be downloaded at https://dataverse.nl/dat
 
 ### Data Vstack
 
-To create the merged dataset used in simulation ... the vertical stacking tool from asreview-datatools is used. With this tool several datatool can be exported into one single dataset. This function can be installed via this command.
+To create the merged dataset used in simulation ... the vertical stacking tool from asreview-datatools is used. With this tool several datasets can be exported into one single dataset. This function can be installed via this command.
 ```bash
 pip install asreview-datatools
 ```
