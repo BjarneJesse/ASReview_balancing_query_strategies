@@ -9,8 +9,38 @@ This repository contain the files to reproduce the simulation study and subseque
 ## Table of Contents
 
 - ```Simulation1A```
+- ```Simulation1B```
+- ```Simulation2A```
+- ```Simulation2B```
 
 ## Simulation1A
 
-In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evualtion of each of the current strategy's impact on a 'normal' dataset. 
+In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## Simulation1B
+
+In this simulation, all current balancing strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## Simulation2A
+
+In this simulation the interaction between the balancing strategy 'simple' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'simple', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## Simulation2B
+
+In this simulation the interaction between the balancing strategy 'undersample' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'undersample', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## How to reproduce the project
+
+### 1. Acces the data
+Please refer to the readme from the data folder
+
+### 2. Install ASReview (and Makita)
+Please refer to the readme in the scripts folder.
+
+### 3. Run the jobs.bat files in the simulation folders
+for some of the simulations a custom config file is used. how you can use this in your simulation can be read on the readme file on the github page of makita.
+
+### 4. Run the analysis notebook to generate the results
+Open analysis_notebook and run the scripts (making sure to change the directory to where you have the balancing_query_strategies_project repo stored on your local computer).
+
 
