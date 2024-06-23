@@ -4,7 +4,7 @@
 
 ### Synergy dataset
 
-The data used in the current project was the van de Schoot(van de Schoot et al, 2018) and van der Valk (van der Valk et al. 2021) dataset which were taken form the SYNERGY dataset (De Bruin et al., 2023). The SYNERGY dataset can be downloaded by first installing the syngergy-dataset Python package 
+The data used in the current project was the van de Schoot(van de Schoot et al, 2018), van der Valk (van der Valk et al. 2021) and Brouwer (Brouwer et al, 2019) dataset which were taken form the SYNERGY dataset (De Bruin et al., 2023). The SYNERGY dataset can be downloaded by first installing the syngergy-dataset Python package 
 
 ```bash
 pip install syngergy-dataset
@@ -27,5 +27,9 @@ Merging the datasets can then be completed by running this command.
 ```bash
 asreview data vstack SchootValk.csv van_de_Schoot_2018.csv van_der_Valk_2021.csv
 ```
+
+###
+
+due to the huge size of the brewer dataset, it was chosen for this study to reduce the data to 5000 records, the script used to do this is attached in this repository. 
 
 
