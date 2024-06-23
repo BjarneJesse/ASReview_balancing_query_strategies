@@ -15,19 +15,39 @@ This repository contain the files to reproduce the simulation study and subseque
 
 ## Simulation1A
 
-In the first simulation, all current query strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+In the first simulation, all current query strategies are simulated with double balance balancing strategy to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
 ## Simulation1B
 
-In this simulation, all current balancing strategies are simulated to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+In this simulation, all current query strategies are simulated with undersample balance balancing to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## Simulation1C
+
+In this simulation, all current query strategies are simulated without balancing strategy to analyze their performance and effectiveness in the context of this dataset. This simulation gives a comparison and evaluation of each of the current strategy's impact on a 'normal' dataset. We will do this with all the different parameters on default. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
 ## Simulation2A
 
-In this simulation the interaction between the balancing strategy 'simple' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'simple', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+In this simulation the combination between query strategy max certainty and random is simulated at different combination fractions, reaching from 0.05 to 1.0. This simulation gives insights in which fraction performs best. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
 
 ## Simulation2B
 
-In this simulation the interaction between the balancing strategy 'undersample' and the different query-strategies are analyzed. This simulation gives a comparison and evaluation of each of the query-strategies with the balancing strategy set on 'undersample', This means there is no balancing strategy. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+In this simulation the combination between query strategy max certainty and uncertainty is simulated at different combination fractions, reaching from 0.05 to 1.0. This simulation gives insights in which fraction performs best. The data from van_de_Schoot_2018 out the SYNGERGY dataset wil be used.
+
+## Simulation3A
+
+In this simulation the combination between query strategy max certainty and random is simulated at different combination fractions, reaching from 0.05 to 1.0. The simulation is performed on clustered data. This simulation gives insights if adding random papers to the query strategy solves the problem of trap formation. The dataset is merged data from van_de_Schoot_2018 and van_der_Valk_2021 out the SYNGERGY dataset. 
+
+## Simulation3B
+
+In this simulation the combination between query strategy max certainty and uncertainty is simulated at different combination fractions, reaching from 0.05 to 1.0. The simulation is performed on clustered data. This simulation gives insights if adding uncertainty papers to the query strategy solves the problem of trap formation. The dataset is merged data from van_de_Schoot_2018 and van_der_Valk_2021 out the SYNGERGY dataset. 
+
+## Simulation3C
+
+In this simulation the combination between query strategy max certainty and random is simulated at different combination fractions, reaching from 0.05 to 1.0. The simulation is performed on clustered data. This simulation gives insights if adding random papers to the query strategy solves the problem of trap formation. The dataset is merged data from van_de_Schoot_2018 and a part of Brouwer_2019 out the SYNGERGY dataset. 
+
+## Simulation3B
+
+In this simulation the combination between query strategy max certainty and uncertainty is simulated at different combination fractions, reaching from 0.05 to 1.0. The simulation is performed on clustered data. This simulation gives insights if adding uncertainty papers to the query strategy solves the problem of trap formation. The dataset is merged data from van_de_Schoot_2018 and a part of Brouwer_2019 out the SYNGERGY dataset. 
 
 ## How to reproduce the project
 

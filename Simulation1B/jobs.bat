@@ -34,17 +34,21 @@ mkdir output\simulation\van_de_Schoot_2018\state_files
 python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_simple_0.asreview --model nb --query_strategy max --balance_strategy simple --feature_extraction tfidf --init_seed 535 --seed 165 -q max -b simple --n_instances 1 --stop_if min
 python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_simple_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_max_simple_0.json
 
-:: Classifier = nb, Feature extractor = tfidf, Query strategy = max, Balance_strategy = double
-python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_double_0.asreview --model nb --query_strategy max --balance_strategy double --feature_extraction tfidf --init_seed 535 --seed 165 -q max -b double --n_instances 1 --stop_if min
-python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_double_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_max_double_0.json
+:: Classifier = nb, Feature extractor = tfidf, Query strategy = max_random, Balance_strategy = simple
+python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_random_simple_0.asreview --model nb --query_strategy max_random --balance_strategy simple --feature_extraction tfidf --init_seed 535 --seed 165 -q max_random -b simple --n_instances 1 --stop_if min
+python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_random_simple_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_max_random_simple_0.json
 
-:: Classifier = nb, Feature extractor = tfidf, Query strategy = max, Balance_strategy = triple
-python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_triple_0.asreview --model nb --query_strategy max --balance_strategy triple --feature_extraction tfidf --init_seed 535 --seed 165 -q max -b triple --n_instances 1 --stop_if min
-python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_triple_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_max_triple_0.json
+:: Classifier = nb, Feature extractor = tfidf, Query strategy = max_uncertainty, Balance_strategy = simple
+python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_uncertainty_simple_0.asreview --model nb --query_strategy max_uncertainty --balance_strategy simple --feature_extraction tfidf --init_seed 535 --seed 165 -q max_uncertainty -b simple --n_instances 1 --stop_if min
+python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_uncertainty_simple_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_max_uncertainty_simple_0.json
 
-:: Classifier = nb, Feature extractor = tfidf, Query strategy = max, Balance_strategy = undersample
-python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_undersample_0.asreview --model nb --query_strategy max --balance_strategy undersample --feature_extraction tfidf --init_seed 535 --seed 165 -q max -b undersample --n_instances 1 --stop_if min
-python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_max_undersample_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_max_undersample_0.json
+:: Classifier = nb, Feature extractor = tfidf, Query strategy = uncertainty, Balance_strategy = simple
+python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_uncertainty_simple_0.asreview --model nb --query_strategy uncertainty --balance_strategy simple --feature_extraction tfidf --init_seed 535 --seed 165 -q uncertainty -b simple --n_instances 1 --stop_if min
+python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_uncertainty_simple_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_uncertainty_simple_0.json
+
+:: Classifier = nb, Feature extractor = tfidf, Query strategy = cluster, Balance_strategy = simple
+python -m asreview simulate data\van_de_Schoot_2018.csv -s output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_cluster_simple_0.asreview --model nb --query_strategy cluster --balance_strategy simple --feature_extraction tfidf --init_seed 535 --seed 165 -q cluster -b simple --n_instances 1 --stop_if min
+python -m asreview metrics output\simulation\van_de_Schoot_2018\state_files\sim_van_de_Schoot_2018_nb_tfidf_cluster_simple_0.asreview -o output\simulation\van_de_Schoot_2018\metrics\metrics_sim_van_de_Schoot_2018_nb_tfidf_cluster_simple_0.json
 
 :: Generate plot and tables for dataset
 python scripts\get_plot.py -s output\simulation\van_de_Schoot_2018\state_files\ -o output\figures\plot_recall_sim_van_de_Schoot_2018.png --show_legend model
